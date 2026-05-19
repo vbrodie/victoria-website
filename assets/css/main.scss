@@ -1,0 +1,415 @@
+---
+# Only the main.scss needs front matter
+---
+
+$sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$sans-serif-narrow: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$header-font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+// Base
+$color-charcoal:      #484848;  // your primary dark
+$color-indigo:        #16016B;  // your primary accent
+
+// Indigo scale
+$color-indigo-dark:   #0d0150;
+$color-indigo-tint:   #ebe8f8;
+
+// Neutrals
+$color-gray-dark:     #6f777d;
+$color-gray-light:    #e8e9ea;
+$color-off-white:     #f5f5f4;
+$color-white:         #ffffff;
+
+// Violet — bridges indigo and the warmer tones
+$color-violet:        #7c3aed;
+$color-violet-tint:   #f3eeff;
+
+// Dusty rose — warm contrast to the cool indigo
+$color-rose:          #c2677a;
+$color-rose-tint:     #faeef0;
+
+// Warm amber — for highlights, callouts, or tags
+$color-amber:         #d4892a;
+$color-amber-tint:    #fdf3e3;
+
+// Teal — cool but distinct from indigo, good for links or icons
+$color-teal:          #2a9d8f;
+$color-teal-tint:     #e6f6f4;
+
+// Functional assignments
+$accent-color:        $color-indigo;
+$accent-hover:        $color-indigo-dark;
+$accent-secondary:    $color-violet;
+$text-primary:        $color-charcoal;
+$text-muted:          $color-gray-dark;
+$border-color:        $color-gray-light;
+$background:          $color-off-white;
+$highlight:           $color-amber;
+$tag-background:      $color-indigo-tint;
+$tag-text:            $color-violet;
+$primary-color:          $color-violet;
+$footer-background-color: $color-violet-tint;
+$masthead-link-color: $color-violet;
+$masthead-link-color-hover: mix(#000, $masthead-link-color, 25%);
+$navicon-link-color-hover: mix(#fff, $masthead-link-color, 75%);
+
+
+.fa-envelope-square {
+    color: $primary-color;
+}
+
+.fa-download {
+    color: $primary-color;
+}
+
+.fa-linkedin {
+    color: $primary-color;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+}
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+
+h1 {
+    color: $color-violet;
+}
+
+.greedy-nav a.site-title {
+    font-family: 'Source Serif 4', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.page__footer-copyright {
+    color: $accent-color;
+}
+
+.career-summary {
+    font-size: 0.85rem !important;
+    font-style: italic;
+    border-left: 3px solid $primary-color;
+    padding-left: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+.resume-section {
+  margin-bottom: 1.5rem;
+
+  h2 {
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: $color-teal;
+    border-bottom: 1px solid #f2f3f3;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.resume-entry {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #f2f3f3;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__dates {
+    font-size: 0.75rem;
+    color: $text-muted;
+  }
+
+  &__meta {
+    font-style: normal;
+    color: $primary-color;
+    margin-bottom: 0.25rem !important;
+  }
+
+  ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 0.2rem;
+    font-size: 0.82rem;
+    list-style: none;
+    padding-left: 1.25rem;
+    position: relative;
+
+    &::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: $primary-color;
+    speak: never;
+  }
+}
+
+  h3 {
+    margin-top: .25rem;  
+  }
+}
+
+.skill-group {
+  margin-bottom: 0.75rem;
+
+  h4 {
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.35rem;
+  }
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0;
+}
+
+.skill-tag {
+  font-size: 0.7rem;
+  background: $color-violet-tint;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}
+
+@media print {
+  .masthead,
+  .author__avatar,
+  .author__urls-wrapper,
+  .page__footer,
+  .page__share,
+  .page__related {
+    display: none !important;
+  }
+
+  .page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.resume-entry__minor {
+    font-size: 0.85rem;
+    color: $text-muted;
+    margin-bottom: 0.25rem;
+  }
+
+
+  //-----HOME PAGE COLUMN-----//
+
+  .columns-row {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    h1 {
+        margin-bottom: .25rem;
+        font-family: 'Source Serif 4', Tahoma, Geneva, Verdana, sans-serif
+    
+    }
+  
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+  }
+  
+  /* Individual column */
+  .column {
+    flex: 1;
+    text-align: center;          /* center text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;         /* center inner content */
+  }
+  
+  /* Limit image size */
+  .column img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: .5rem;
+    border-radius: 100%;
+    border: 4px solid $border-color;
+  }
+  
+  
+  /* Stack on smaller screens */
+  @media (max-width: 768px) {
+    .columns-row {
+      flex-direction: column;
+      border-bottom: 0px;
+    }
+  
+    .column img {
+      max-width: 40%; /* slightly larger on mobile */
+    }
+  }
+
+
+  .contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+  
+    td {
+      padding: 0.4rem 1rem 0.4rem 0;
+      border: none;
+      font-size: 0.85rem;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+  
+    a {
+      padding: 0 1rem 0 1rem;
+    }
+  
+    @media (max-width: 600px) {
+      display: block;
+  
+      tr {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+  
+      td {
+        display: block;
+        white-space: normal;
+        padding: 0.25rem 0;
+      }
+  
+      a {
+        padding: 0;
+      }
+    }
+  }
+
+  //-----PORTFOLIO PAGE-----//
+
+  .portfolio-section {
+    margin-bottom: 1.5rem;
+  
+    h2 {
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: $primary-color;
+      border-bottom: 1px solid $border-color;
+      padding-bottom: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+  }
+  
+  .portfolio-entry {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px dashed $border-color;
+  
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  
+    h3 {
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: $text-muted;
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+    }
+  }
+  
+  .portfolio-entry__type {
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $text-muted;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .portfolio-list {
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin: 0 0 0.5rem 0;
+  
+    li {
+      font-size: 0.85rem;
+      padding-left: 1.1rem;
+      position: relative;
+      margin-bottom: 0.25rem;
+  
+      &::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: $primary-color;
+        speak: never;
+      }
+    }
+  }
+  
+  .portfolio-archive {
+    font-size: 0.75rem;
+    color: $text-muted;
+    margin-left: 0.4rem;
+  
+    a {
+      color: $text-muted;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .portfolio-note {
+    font-size: 0.75rem !important;
+    font-style: italic;
+    color: $text-muted;
+    margin-top: 0.35rem;
+    margin-bottom: 0;
+  }
+  
+  .portfolio-video {
+    margin-bottom: 1rem;
+  
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .portfolio-video__title {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: $text-muted;
+    margin-bottom: 0.4rem;
+    font-style: italic;
+  }
+  
+  .page-intro {
+    font-size: 0.85rem;
+    color: $text-muted;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+  }

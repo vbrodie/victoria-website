@@ -1,0 +1,65 @@
+---
+
+- title: Senior Technical Writer
+  company: Arctic Wolf (via acquisition of Sevco Security)
+  location: Queens, NY
+  dates: Feb. 2026 – Present
+  highlights:
+    - Led rebranding of inherited docs-as-code documentation site to align with Arctic Wolf's visual identity, updating key platform documents to reposition Aurora ASM within the Arctic Wolf ecosystem 
+    - Executed bulk AI-assisted migration of all product terminology and support references from Sevco to Aurora ASM, pushing changes to GitHub via Git sync and publishing to the live documentation site 
+    - Authored new integration guides connecting Aurora ASM with adjacent Arctic Wolf products for cross-platform data ingestion 
+    - Collaborated with Engineers to update SAML/SSO configuration documentation in alignment with Arctic Wolf's authentication standards 
+    - Oversaw rebranding of all in-app content maintained in Userpilot—including in-product announcements, tutorials, and the Aurora ASM Resource Center—to match Arctic Wolf's visual identity using CSS 
+    - Serving as Aurora ASM subject matter expert in collaboration with Arctic Wolf's documentation team to plan migration of the Aurora ASM documentation site to Arctic Wolf's primary docs platform, which uses a topic-based authoring format built on a DITA framework 
+    - Contributed product copy for Aurora ASM's About page in preparation for its launch into the Arctic Wolf ecosystem 
+    - Serving as internal Userpilot SME and primary liaison between Userpilot representatives and Arctic Wolf stakeholders, advising on contract renewal, upgrade, and platform consolidation decisions
+
+
+- title: Technical Documentation Lead
+  company: Sevco Security
+  location: Queens, NY
+  dates: June 2022 – Feb. 2026
+  highlights:
+    - Rebuilt and significantly expanded an inherited documentation site into a comprehensive knowledgebase now comprising 43 platform documents and integration guides for 141 platforms, covering onboarding, UI navigation, process workflows, conceptual documentation, SSO/MFA configuration, and API integrations—personally authoring an estimated 60+ integration guides
+    - Owned full information architecture of the documentation site, including platform selection, table of contents structure, and URL taxonomy, ensuring scalability and discoverability as the product grew
+    - Managed in-product announcements achieving an 85–90% completion rate, and established AI-assisted workflows to improve consistency and efficiency of the publication process
+    - Proposed and scoped a bidirectional sync between ReadMe and GitHub, sourcing implementation documentation and coordinating with engineering to deploy, streamlining the documentation review and editing workflow across teams
+    - Conducted vendor research and stakeholder interviews to select an in-app content platform, then designed and launched a two-track onboarding course in Userpilot tailored to distinct user types, including visual design of all course assets
+    - Planned documentation requirements for each new product release, collaborating with a Technical Lead to maintain an up-to-date API Reference aligned with product changes
+    - Contributed to UI/UX discussions and identifies software bugs during documentation development, functioning as an additional product quality feedback loop
+    - Presented original research at BSides cybersecurity conferences in Bloomington, Indiana and Orlando, Florida
+
+- title: Technical Writing Consultant
+  company: Goldcast
+  location: Brooklyn, NY
+  dates: May 2021 – June 2022
+  highlights:
+    - Built Goldcast's integration documentation library from zero, producing written guides, video walkthroughs, and Pendo-based in-app tutorials covering 13 integrations by the time of departure
+    - Created realistic demonstration content for video tutorials by configuring live RTMP streams between Goldcast and external platforms including Zoom, using tools like OBS to simulate production broadcast scenarios
+    - Managed end-to-end app marketplace submissions for Adobe Exchange and HubSpot App Marketplace, including requirements gathering, form completion, and coordination with the design team to produce compliant brand assets and informational graphics for each listing
+    - Collaborated with Product and Customer Success teams to develop onboarding materials aligned with platform features, integration workflows, and webhook functionality
+- title: Technical Writing Consultant
+  company: Splash
+  location: New York, NY
+  dates: June 2019
+  highlights:
+    - Revised a Slack integration guide for Splash’s event-marketing software to reflect recent UX and UI updates.
+- title: Technical Writing Consultant
+  company: Tenex Software Solutions
+  location: Brooklyn, NY
+  dates: Apr. 2018 – Nov. 2021
+  highlights:
+    - Produced written documentation and video tutorials for an elections-management software suite deployed across 18 states
+    - Built Moodle-based poll worker training courses with voiceover narration for the NYC Board of Elections, serving a jurisdiction of over 5.5 million voters
+    - Contributed to government-issued RFP responses that secured contracts in Texas, New York, California, Pennsylvania, and Idaho
+    - Provided on-site client support during live elections, configuring and troubleshooting iPad-based electronic poll books
+    - Designed, developed, and deployed Tenex’s website, building and maintaining all frontend content and structure with deployment to an NGINX server
+- title: Data Editor
+  company: iSpot.tv
+  location: New York, NY
+  dates: June 2017 – Apr. 2018
+  highlights:
+    - Maintained a catalog of advertisements from television feeds on the iSpot platform to help track performance metrics
+    - Performed research on over 150 companies to learn about their brand, products, and any relevant jargon specific to their industries
+    - Wrote SEO copy for TV advertisements using AP Style that was regularly featured on iSpot and AdAge’s web platforms
+---

@@ -1,0 +1,28 @@
+---
+- category: Documentation & Content
+  items:
+    - Technical Writing
+    - UX Writing
+    - API Documentation
+    - Information Architecture
+    - Public Speaking
+
+- category: Tools & Platforms
+  items:
+    - ReadMe
+    - Userpilot
+    - Pendo
+    - Postman
+    - Jira & Confluence
+    - GitHub
+    - Zendesk
+
+- category: Technical
+  items:
+    - HTML/CSS
+    - Markdown
+    - Jekyll
+    - API & Webhooks
+    - Visual Studio Code
+    - QA Testing
+---
