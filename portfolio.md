@@ -18,8 +18,8 @@ classes: wide
       <h3>Documentation</h3>
     </div>
     <ul class="portfolio-list">
+       <li><a href="https://docs.sev.co/docs/software-vulnerabilities-overview">Live Vulnerabilitites Overview</a> <span class="portfolio-archive"><a href="https://web.archive.org/web/20260226171633/https://docs.sev.co/docs/software-vulnerabilities-overview">(Archive)</a></span></li>
       <li><a href="https://docs.sev.co/docs/build-a-query">Building a Query</a> <span class="portfolio-archive"><a href="https://web.archive.org/web/20260122094919/https://docs.sev.co/docs/build-a-query">(Archive)</a></span></li>
-      <li><a href="https://docs.sev.co/docs/software-vulnerabilities-overview">Live Vulnerabilitites Overview</a> <span class="portfolio-archive"><a href="https://web.archive.org/web/20260226171633/https://docs.sev.co/docs/software-vulnerabilities-overview">(Archive)</a></span></li>
       <li><a href="https://docs.sev.co/docs/manage-runners">Manage Runners</a> <span class="portfolio-archive"><a href="https://web.archive.org/web/20260225022639/https://docs.sev.co/docs/manage-runners">(Archive)</a></span></li>
       <li><a href="https://docs.sev.co/docs/cloudflare-zero-trust">Cloudflare Zero Trust Integration</a> <span class="portfolio-archive"><a href="https://web.archive.org/web/20260226171633/https://docs.sev.co/docs/cloudflare-zero-trust">(Archive)</a></span></li>
     </ul>
