@@ -28,7 +28,7 @@ author_profile: false
                 </a>
             </tr>
             <tr>
-                <a href="/assets/VBrodie_resume.pdf" target="_blank">
+                <a href="/assets/VBrodie_resume2026.pdf" target="_blank">
                     <i class="fa-solid fa-download" aria-hidden="true"></i>
                     Resume
                 </a>
