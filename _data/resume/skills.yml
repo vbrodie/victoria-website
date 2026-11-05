@@ -5,11 +5,15 @@
     - UX Writing
     - API Documentation
     - Information Architecture
+    - Content Reuse
+    - Docs-as-Code
     - Public Speaking
 
 - category: Tools & Platforms
   items:
     - ReadMe
+    - Heretto
+    - Claude Code
     - Userpilot
     - Pendo
     - Postman
@@ -19,8 +23,9 @@
 
 - category: Technical
   items:
-    - HTML/CSS
     - Markdown
+    - HTML/CSS
+    - DITA
     - Jekyll
     - API & Webhooks
     - Visual Studio Code

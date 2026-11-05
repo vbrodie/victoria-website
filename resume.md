@@ -9,7 +9,7 @@ classes: wide
 <section class="resume-section">
   <h2>Summary</h2>
   <p class="career-summary">
-   Senior Technical Writer with nearly a decade of experience architecting end-user education systems for SaaS platforms in cybersecurity, event management, and elections technology. Specializes in API documentation, information architecture, and in-app content strategy, with a proven track record of building documentation programs from the ground up for early-stage startups. Currently leading documentation migration and rebranding efforts at Arctic Wolf following the acquisition of Sevco Security, expanding scope to enterprise-scale documentation infrastructure and DITA-based topic authoring. Industry speaker and advocate for documentation as a core product function.
+   Senior Technical Writer with nearly a decade of experience architecting end-user education systems for SaaS platforms in cybersecurity, event management, and elections technology. Specializes in API documentation, information architecture, and in-app content strategy, with a track record of building documentation programs at early-stage startups and expanding into enterprise-scale DITA authoring. Industry speaker and advocate for documentation as a core product function.
   </p>
 </section>
 
